@@ -77,10 +77,14 @@ const Home = () => {
       <hr />
       <h1>Generation Thailand</h1>
       <h1>{sector ? `Home - ${sector} Sector` : "React - Assignment"}</h1>
-      <div>
-        <button onClick={handleUserClick}>User Home Sector</button>
+      <div className="div-button">
+        <button className="home-button" onClick={handleUserClick}>
+          User Home Sector
+        </button>
         &nbsp; &nbsp; &nbsp;
-        <button onClick={handleAdminClick}>Admin Home Sector</button>
+        <button className="home-button" onClick={handleAdminClick}>
+          Admin Home Sector
+        </button>
       </div>
       <br />
       <br />
